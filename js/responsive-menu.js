@@ -12,7 +12,7 @@ jQuery(function( $ ){
 			$(".responsive-menu > .menu-item").removeClass("menu-open");
 		}
 	});
-
+	// Test
 	$(".responsive-menu > .menu-item").click(function(event){
 		if (event.target !== this)
 		return;
